@@ -1,10 +1,13 @@
+#Dataset files can ben found at 
+http://www.sfu.ca/~alopes/732_project/dataset.zip
+#Report and results at
+http://www.sfu.ca/~vpalenge/index.html
+
 #Instructions to run
-----Daemon------
+#----Daemon------
 cd tweet_stream
 nohup python3 tweet_stream2.py >out.txt &
 #The command is running and saving the twitters inside the folder 'airlines_tweets'
-#Dataset files can ben found at 
-http://www.sfu.ca/~alopes/732_project/dataset.zip
 #Copy the files to be processed
 hdfs dfs -copyFromLocal  airlines_tweets
 #back to the main directory
