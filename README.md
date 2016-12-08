@@ -6,7 +6,7 @@ http://www.sfu.ca/~vpalenge/index.html
 #Instructions to run Daemon
 cd tweet_stream
 nohup python3 tweet_stream2.py >out.txt &
-#The command is running and saving the twitters inside the folder 'airlines_tweets'!
+The command is running and saving the twitters inside the folder 'airlines_tweets'!
 
 #Copy the files to be processed
 hdfs dfs -copyFromLocal  airlines_tweets
