@@ -4,8 +4,8 @@ http://www.sfu.ca/~alopes/732_project/dataset.zip
 http://www.sfu.ca/~vpalenge/index.html
 
 #Instructions to run Daemon
-cd tweet_stream \
-nohup python3 tweet_stream2.py >out.txt & \
+cd tweet_stream <br/>
+nohup python3 tweet_stream2.py >out.txt & <br/>
 The command is running and saving the twitters inside the folder 'airlines_tweets'!
 
 #Copy the files to be processed
