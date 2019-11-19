@@ -19,6 +19,6 @@ spark-submit --master=yarn-client --executor-memory 6G --num-executors 15 --pack
 
 
 
-
+https://aprendizadodemaquina.com
 
 
