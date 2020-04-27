@@ -4,6 +4,12 @@ Airline Ranker is a software that ranks airlines based on customer satisfacrtion
 
 ![spark](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png)
 
+The software has basically three main steps:
+
+First to collect the data from twitteer
+Second process the data and score it using sentiment analisys
+Third to display the data in a simple amnner
+
 ## Getting Started
 
 Launch the app as job in apache spark and collect the results
